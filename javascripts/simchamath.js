@@ -22,3 +22,9 @@ function getDistance()
   return distance;
 }
 
+function displayDistance() {
+  var distance = getDistance();
+  document.getElementById('answer').innerHTML =
+                                      "Distance between points: "+distance;
+}
+
