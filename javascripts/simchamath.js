@@ -3,13 +3,17 @@ function toRadians (angle) {
   return angle * (Math.PI / 180);
 }
 
+
+
+
+
 function getDistance()
 {
-  var shape_info = document.getElementById('shape_info');
+  var shape_info = document.forms['shape_info'];
 
-  var size = shape_info.size;
-  var d = shape_info.diameter;
-  var difference shape_info.difference;
+  var size = shape_info.elements['size'];
+  var d = shape_info.elements['diameter'];
+  var difference = shape_info.elements['difference'];
 
   var theta = 360 * difference / size;
 
