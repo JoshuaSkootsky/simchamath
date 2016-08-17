@@ -6,14 +6,13 @@ function toRadians (angle) {
 
 
 
-
 function getDistance()
 {
   var shape_info = document.forms['shape_info'];
 
-  var size = shape_info.elements['size'];
-  var d = shape_info.elements['diameter'];
-  var difference = shape_info.elements['difference'];
+  var size = parseInt(shape_info.elements['size']);
+  var d = parseInt(hape_info.elements['diameter']);
+  var difference = parseInt(shape_info.elements['difference']);
 
   var theta = 360 * difference / size;
 
