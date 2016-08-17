@@ -38,9 +38,29 @@
       
         <section>
 <h3> Let's calculate the distance between two points of a regular shape!</h3>
-<p> Number of sides</p>
-<p> Diameter of circle that the shape is inscribed in</p>
+<script src="javascripts/simchamath.js" type="text/javascript"></script>
+<p> Number of sides
+
+  <form>
+    Number of sides of your shape:
+    <input type="number" name="size" min="3" max="2000000">
+  </form>
+</p>
+
+<p> Diameter of circle that the shape is inscribed in
+    <form>
+    Diameter of circle that the shape is inscribed in:
+    <input type="number" name="diameter" min="0" max="2000000">
+  </form>
+</p>
+
 <p> Difference between points </p>
+  <form>
+    <span title="Number the points 1 through n of your shape. If you want to know the distance between points 1 and 3, the difference between them is 2 - unless you have less than five sides, in which case you should go in the other direction and count the difference from the shorter number of points.">D ifference between points.  </span>.
+    <input type="number" name="difference" min="0" max="1999999">
+  </form>
+
+
 <p> Answer = Distance between points </p>
         </section>
         
