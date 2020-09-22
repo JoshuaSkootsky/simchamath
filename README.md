@@ -1,5 +1,5 @@
 # simchamath
-A website for Simcha that does some math
+A website for doing some math while visualizing jewelry.
 
-#Visit the GitHub.io site
-https://joshuaskootsky.github.io/simchamath/
+# Visit the GitHub Pages site
+[Math for Jewelers](https://joshuaskootsky.github.io/simchamath/ "Math for Jewelers")
